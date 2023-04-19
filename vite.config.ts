@@ -5,6 +5,7 @@ import type { UserConfig as VitestUserConfigInterface } from "vitest/config";
 const vitestConfig: VitestUserConfigInterface = {
   test: {
     globals: true,
+    restoreMocks: true,
   },
 };
 
